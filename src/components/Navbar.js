@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { Router } from "react-router-dom";
 
-/* React*/
+/* Boot strap */
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Nav, Navbar} from 'react-bootstrap';
 
