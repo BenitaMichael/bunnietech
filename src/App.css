@@ -115,7 +115,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   color: #fff !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
-  font-size: 20px;
+  font-size: 18px;
   opacity: 0.65;
   cursor: pointer;
 }
@@ -133,7 +133,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   color: #fff !important;
   border: 1px solid #fff;
   padding: 18px 34px;
-  font-size: 20px;
+  font-size: 18px;
   margin-left: 18px;
 	position: relative;
 	background-color: transparent;
