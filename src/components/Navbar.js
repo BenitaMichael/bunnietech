@@ -1,6 +1,11 @@
+/* React */
 import { useState, useEffect } from 'react';
+import { Router } from "react-router-dom";
+
+/* React*/
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Nav, Navbar} from 'react-bootstrap';
+
 
 export const NavBar = () =>{
 
@@ -22,21 +27,32 @@ export const NavBar = () =>{
     return () => window.removeEventListener("scroll", onScroll)
   }, [])
 
-    return(
-        <Navbar expand="lg" className= {scrolled ? "scrolled" : ""}>
-      <Container>
-        <Navbar.Brand href="#home">BUNNIE.tech</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home" className={active ==='home' ? 'active navbar-link' : 'navbar-link'} onClick={}>Home</Nav.Link>
-            <Nav.Link href="#skills" className={active ==='skills' ? 'active navbar-link' : 'navbar-link'}>Skills</Nav.Link>
-            <Nav.Link href="#work-experience" className={active ==='work-experice' ? 'active navbar-link' : 'navbar-link'}>Work Experience</Nav.Link>
-            <Nav.Link href="#projects" className={active ==='projects' ? 'active navbar-link' : 'navbar-link'}>Projects</Nav.Link>
-            <Nav.Link href="#contact" className={active ==='contact' ? 'active navbar-link' : 'navbar-link'}>Contact</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+  const onUpdateActiveLink = (value) =>{
+    setActive(value)
+  }
+
+      return (
+          <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
+            <Container>
+              <Navbar.Brand href="/" >
+                <h1 className="nav-brand">Bunnie<span>.</span>tech</h1>
+              </Navbar.Brand>
+              <Navbar.Toggle aria-controls="basic-navbar-nav">
+                <span className="navbar-toggler-icon"></span>
+              </Navbar.Toggle>
+              <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="ms-auto">
+                <Nav.Link href="#home" className={active ==='home' ? 'active navbar-link' : 'navbar-link'} onClick={() =>onUpdateActiveLink('home')}>Home</Nav.Link>
+                <Nav.Link href="#skills" className={active ==='skills' ? 'active navbar-link' : 'navbar-link'} onClick={() =>onUpdateActiveLink('skills')}>Skills</Nav.Link>
+                <Nav.Link href="#work-experience" className={active ==='work-experice' ? 'active navbar-link' : 'navbar-link'} onClick={() =>onUpdateActiveLink('work-experience')}>Work Experience</Nav.Link>
+                <Nav.Link href="#projects" className={active ==='projects' ? 'active navbar-link' : 'navbar-link'} onClick={() =>onUpdateActiveLink('projects')}>Projects</Nav.Link>
+                </Nav>
+                <div className= 'navbar-button'>
+                <Nav.Link href="#contact" className={active ==='contact' ? 'active navbar-link' : 'navbar-link'} onClick={() =>onUpdateActiveLink('contact')}>Contact</Nav.Link>
+               </div>
+              </Navbar.Collapse>
+            </Container>
+          </Navbar>
+      
     )
 }
