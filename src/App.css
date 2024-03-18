@@ -31,7 +31,6 @@ html{
 
 body{
   overflow-x: hidden;
-  position: relative;
   background-color: #030637 !important;
   color: #fff !important;
   font-family: 'PTSerif', sans-serif !important;
@@ -87,9 +86,7 @@ p.danger {
 /* NAVBAR */
 nav.navbar {
   padding: 20px 0;
-  position: fixed;
   width: 100%;
-  top: 0;
   z-index: 9999;
   transition:  0.52s ease-in-out;
   background-color: #000000 !important;
@@ -115,7 +112,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   color: #fff !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
-  font-size: 20px;
+  font-size: 18px;
   opacity: 0.65;
   cursor: pointer;
 }
@@ -133,7 +130,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   color: #fff !important;
   border: 1px solid #fff;
   padding: 18px 34px;
-  font-size: 20px;
+  font-size: 18px;
   margin-left: 18px;
 	position: relative;
 	background-color: transparent;

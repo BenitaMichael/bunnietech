@@ -8,7 +8,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 
 export const Profile = () =>{
     return(
-        <Container>
+        <Container className="profile-section">
             <Row>
                 <Col className="profile-text">
                     <p>Hello there...</p>
@@ -18,6 +18,7 @@ export const Profile = () =>{
                     
                 </Col>
                 <Col className="profile img">
+
                     <img src='.../assets/images/avataaars.svg' />
                 </Col>
             </Row>
