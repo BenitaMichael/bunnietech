@@ -18,7 +18,7 @@ export const Profile = () =>{
                     
                 </Col>
                 <Col className="profile img">
-                    <img src='../assets/images/avataaars.svg' />
+                    <img src='.../assets/images/avataaars.svg' />
                 </Col>
             </Row>
     </Container>
