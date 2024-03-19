@@ -1,5 +1,5 @@
 /* React */
-import { TypeAnimation } from 'react-type-animation'
+import { TypeAnimation } from 'react-type-animation';
 
 import image from '../assets/images/avataaars.svg'
 /* Bootstrap */
@@ -8,7 +8,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 
 export const Profile = () => {
     return (
-        <Container className="profile-section">
+        <Container className="profile-section mt-4">
             <Row className="align-items-center">
                 <Col xs={12} md={6} className="profile-text">
                     <p className='pt-4'>Hello there...</p>
@@ -29,7 +29,7 @@ export const Profile = () => {
                         <br />
                         Reach out if you would like to learn more...
                     </h4>
-                    <button className='profile-button mt-'>Contact</button>
+                    <button className='profile-button mt-2'>Contact</button>
                 </Col>
                 <Col xs={12} md={6}>
                     <div className='profile-container'>

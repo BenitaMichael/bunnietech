@@ -113,7 +113,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
-  opacity: 0.65;
+  opacity: 0.75;
   cursor: pointer;
 }
 
@@ -206,6 +206,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 
+
+
+
+
+
+
+
 /* PROFILE SECTION */
 .profile-section {
   width: 100vw;
@@ -220,6 +227,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .profile-text h4{
   line-height: 2.5rem;
+}
+
+.profile-button{
+  padding: 12px 20px;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: .3s;
+}
+
+.profile-button:hover{
+  color: #000000;
+  background-color: #fff;
 }
 
 .profile-container {
@@ -316,3 +335,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     height: 100%;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* SKILLS SECTION */
