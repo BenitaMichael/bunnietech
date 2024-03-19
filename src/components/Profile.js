@@ -1,5 +1,5 @@
 /* React */
-import { TypeAnimation } from 'react-type-animation';
+import { TypeAnimation } from 'react-type-animation'
 
 
 /* Bootstrap */
