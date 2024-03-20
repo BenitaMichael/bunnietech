@@ -11,6 +11,17 @@ import {Container, Row, Col} from 'react-bootstrap';
 import webDevelopment from '../assets/images/icons/icons8-code-48.png'
 import versionControl from '../assets/images/icons/icons8-git-50.png'
 import softSkills from '../assets/images/icons/icons8-soft-skills-64.png'
+import html from '../assets/images/icons/icons8-html-48.png'
+import css from '../assets/images/icons/icons8-css-48.png'
+import bootstrap from '../assets/images/icons/icons8-bootstrap-48.png'
+import JS from '../assets/images/icons/icons8-javascript-48.png'
+import mongoDB from '../assets/images/icons/icons8-mongodb-48.png'
+import node from '../assets/images/icons/icons8-node-js-48.png'
+import react from '../assets/images/icons/icons8-react-40.png'
+import mySQL from '../assets/images/icons/icons8-mysql-48.png'
+import python from '../assets/images/icons/icons8-python-48.png'
+import php from '../assets/images/icons/icons8-php-40.png'
+
 
 export const Skills = () =>{
 
