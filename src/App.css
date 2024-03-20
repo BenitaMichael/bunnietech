@@ -243,8 +243,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .profile-container {
   position: relative;
-  width: 700px;
-  height: 700px;
+  width: 650px;
+  height: 650px;
   background-color: #000000;
   border-radius: 50%;
   display: flex;
@@ -348,3 +348,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 
 /* SKILLS SECTION */
+.skill-section{
+  text-align: center;
+}
+.skill-section h2{
+  border-bottom: 5px solid #fff;
+}

@@ -10,6 +10,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 /* Icons */
 import webDevelopment from '../assets/images/icons/icons8-code-48.png'
 import versionControl from '../assets/images/icons/icons8-git-50.png'
+import databaseManagement from '../assets/images/icons/icons8-database-administrator-94.png'
 import softSkills from '../assets/images/icons/icons8-soft-skills-64.png'
 import html from '../assets/images/icons/icons8-html-48.png'
 import css from '../assets/images/icons/icons8-css-48.png'
@@ -46,12 +47,14 @@ export const Skills = () =>{
       };
 
     return(
-        <section className="skills-section">
+        <section className="skills-section mb-4 text-center">
             <Container>
                 <Row>
                     <Col>
-                        <h1>My Skills</h1>
-                        <h2>Through self-learning and online courses, I've mastered a range of skills. Here are some of the skills I excel in</h2>
+                        <h2>My Skills</h2>
+                        <p>Through self-learning and online courses, I've 
+                        mastered a range of skills. Here are some of the 
+                        skills I excel in:</p>
                         <Carousel
                             swipeable={false}
                             draggable={false}
@@ -78,11 +81,29 @@ export const Skills = () =>{
                                 text= 'lorem'
                             />
                             <SkillCard
+                                image={databaseManagement}
+                                title= 'Database Management'
+                                text= 'lorem'
+                            />
+                            <SkillCard
                                 image={softSkills}
                                 title= 'Soft Skills'
                                 text= 'lorem'
                             />
-                            </Carousel>;
+                            </Carousel>
+
+                            <div className='skills-language'>
+                              <img src={html} alt="HTML" />
+                              <img src={css} alt="CSS" />
+                              <img src={bootstrap} alt="bootstrap" />
+                              <img src={JS} alt="javascript" />
+                              <img src={mongoDB} alt="mongoDB" />
+                              <img src={node} alt="nodeJS" />
+                              <img src={react} alt="react" />
+                              <img src={mySQL} alt="mySQL" />
+                              <img src={python} alt="python" />
+                              <img src={php} alt="php" />
+                            </div>
                     </Col>
                 </Row>
             </Container>
