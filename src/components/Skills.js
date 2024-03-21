@@ -38,7 +38,7 @@ export const Skills = () =>{
         },
         tablet: {
           breakpoint: { max: 1024, min: 464 },
-          items: 2
+          items: 1
         },
         mobile: {
           breakpoint: { max: 464, min: 0 },
@@ -51,8 +51,8 @@ export const Skills = () =>{
             <Container>
                 <Row>
                     <Col>
-                        <h2>My Skills</h2>
-                        <p>Through self-learning and online courses, I've 
+                        <h2 className='fs-2 mb-4'>My Skills</h2>
+                        <p className='h4 my-4 py-4'>Through self-learning and online courses, I've 
                         mastered a range of skills. Here are some of the 
                         skills I excel in:</p>
                         <Carousel
@@ -73,36 +73,36 @@ export const Skills = () =>{
                             <SkillCard
                                 image={webDevelopment}
                                 title= 'Web Development'
-                                text= 'lorem'
+                                text= "Proficient in a range of web development technologies such as HTML, CSS, EJS, JavaScript, and PHP. Experienced in crafting responsive and dynamic websites that satisfies client's specifications and industry norms. Additionally, I utilize MERN stack (MongoDB, Express.js, React.js, Node.js) to develop and deploy full-stack web applications, showcasing expertise in both front-end and back-end development."
                             />
                             <SkillCard
                                 image={versionControl}
                                 title= 'Version Control'
-                                text= 'lorem'
+                                text= 'Proficient in using Git for version control, along with platforms like GitHub for collaborative development and project management. Employ best practices in version control, such as branching, merging, and resolving conflicts, to ensure smooth workflow and codebase management.'
                             />
                             <SkillCard
                                 image={databaseManagement}
                                 title= 'Database Management'
-                                text= 'lorem'
+                                text= 'Experienced in managing both SQL and NoSQL databases, proficiently utilizing MongoDB for document-based storage and traditional relational databases for structured data. Skilled in database design, querying, indexing, and optimization to ensure streamlined data management and retrieval. Successfully integrated databases within MERN stack applications, facilitating smooth interaction between front-end interfaces and back-end data storage.'
                             />
                             <SkillCard
                                 image={softSkills}
                                 title= 'Soft Skills'
-                                text= 'lorem'
+                                text= 'Some soft skills I have acquired along the way include strong communication skills demonstrated through effective collaboration with team members, clients, and stakeholders. Proven ability to analyze complex problems, identify viable solutions, and implement effective strategies. Demonstrates adaptability to evolving project requirements, technological advancements, and industry trends. Exhibits leadership qualities by mentoring junior developers, providing guidance, and taking ownership of project tasks.'
                             />
                             </Carousel>
 
-                            <div className='skills-language'>
-                              <img src={html} alt="HTML" />
-                              <img src={css} alt="CSS" />
-                              <img src={bootstrap} alt="bootstrap" />
-                              <img src={JS} alt="javascript" />
-                              <img src={mongoDB} alt="mongoDB" />
-                              <img src={node} alt="nodeJS" />
-                              <img src={react} alt="react" />
-                              <img src={mySQL} alt="mySQL" />
-                              <img src={python} alt="python" />
-                              <img src={php} alt="php" />
+                            <div className='skills-language d-flex mt-4 pt-4'>
+                              <img src={html} alt="HTML" className='pr-2'/>
+                              <img src={css} alt="CSS" className='px-2'/>
+                              <img src={bootstrap} alt="bootstrap" className='px-2'/>
+                              <img src={JS} alt="javascript" className='px-2'/>
+                              <img src={mongoDB} alt="mongoDB" className='px-2'/>
+                              <img src={node} alt="nodeJS" className='px-2'/>
+                              <img src={react} alt="react" className='px-2'/>
+                              <img src={mySQL} alt="mySQL" className='px-2'/>
+                              <img src={python} alt="python" className='px-2'/>
+                              <img src={php} alt="php" className='px-2'/>
                             </div>
                     </Col>
                 </Row>

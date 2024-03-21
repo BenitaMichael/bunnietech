@@ -216,7 +216,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* PROFILE SECTION */
 .profile-section {
   width: 100vw;
-  height: 100vh; /* Set height to 100% of viewport height */
+  height: 90vh; /* Set height to 100% of viewport height */
 }
 
 .profile-text p{
@@ -351,6 +351,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill-section{
   text-align: center;
 }
-.skill-section h2{
-  border-bottom: 5px solid #fff;
+
+.skill-card-img{
+  width: 50px;
+}
+
+.skill-card-title{
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.skill-card-text{
+  font-size: 18px;
 }
