@@ -364,3 +364,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill-card-text{
   font-size: 18px;
 }
+
+.skills-language img{
+  cursor:pointer
+}
