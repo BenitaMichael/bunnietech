@@ -92,7 +92,7 @@ export const Skills = () =>{
                             />
                             </Carousel>
 
-                            <div className='skills-language d-flex mt-4 pt-4'>
+                            <div className='skills-language d-flex flex-wrap mt-4 pt-4'>
                               <img src={html} alt="HTML" className='pr-2'/>
                               <img src={css} alt="CSS" className='px-2'/>
                               <img src={bootstrap} alt="bootstrap" className='px-2'/>

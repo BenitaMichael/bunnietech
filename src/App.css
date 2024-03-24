@@ -366,5 +366,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skills-language img{
-  cursor:pointer
+  width: 120px;
+  padding-left: 30px;
+  cursor:pointer;
 }
