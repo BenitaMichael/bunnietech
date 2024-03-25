@@ -65,6 +65,8 @@ export const Skills = () =>{
                             keyBoardControl={true}
                             customTransition="all .5"
                             transitionDuration={500}
+                            autoPlay={true}
+                            autoPlaySpeed={1000}
                             containerClass="carousel-container"
                             removeArrowOnDeviceType={["desktop", "tablet", "mobile"]}
                             dotListClass="custom-dot-list-style"
@@ -73,7 +75,7 @@ export const Skills = () =>{
                             <SkillCard
                                 image={webDevelopment}
                                 title= 'Web Development'
-                                text= "Proficient in a range of web development technologies such as HTML, CSS, EJS, JavaScript, and PHP. Experienced in crafting responsive and dynamic websites that satisfies client's specifications and industry norms. Additionally, I utilize MERN stack (MongoDB, Express.js, React.js, Node.js) to develop and deploy full-stack web applications, showcasing expertise in both front-end and back-end development."
+                                text= "Proficient in a range of web development technologies such as HTML, CSS, EJS, JavaScript, and PHP. Experienced in crafting responsive and dynamic websites that satisfies client's specifications. Additionally, I utilize MERN stack (MongoDB, Express.js, React.js, Node.js) to develop and deploy full-stack web applications, showing my expertise in both front-end and back-end development."
                             />
                             <SkillCard
                                 image={versionControl}
@@ -88,7 +90,7 @@ export const Skills = () =>{
                             <SkillCard
                                 image={softSkills}
                                 title= 'Soft Skills'
-                                text= 'Some soft skills I have acquired along the way include strong communication skills demonstrated through effective collaboration with team members, clients, and stakeholders. Proven ability to analyze complex problems, identify viable solutions, and implement effective strategies. Demonstrates adaptability to evolving project requirements, technological advancements, and industry trends. Exhibits leadership qualities by mentoring junior developers, providing guidance, and taking ownership of project tasks.'
+                                text= 'Some soft skills I have acquired along my tech journey include strong communication skills developed through effective collaboration with team members and clients. Ability to analyze complex problems, identify viable solutions, and implement effective strategies. Exhibits leadership qualities by mentoring junior developers, providing guidance, and taking ownership of project tasks.'
                             />
                             </Carousel>
 

@@ -320,6 +320,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 @media (max-width: 768px){
+  .profile-section {
+    height: fit-content;
+    margin-bottom: 40px;
+  }
+
   .profile-container {
     width: 500px;
     height: 500px;
@@ -336,6 +341,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
+@media (max-width: 768px){
+  .profile-container {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+  }
+  
+  .profile-img {
+    width: 200px;
+    height: 250px;
+  }
+  
+  .profile-container::before {
+    width: 200px;
+    height: 100%;
+  }
+}
+
+
 
 
 
@@ -350,19 +374,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* SKILLS SECTION */
 .skill-section{
   text-align: center;
-}
-
-.skill-card-img{
-  width: 50px;
-}
-
-.skill-card-title{
-  font-size: 32px;
-  font-weight: 600;
-}
-
-.skill-card-text{
-  font-size: 18px;
 }
 
 .skills-language img{
