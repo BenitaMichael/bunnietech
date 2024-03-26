@@ -376,14 +376,31 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
 }
 
+.skills-section hr{
+  border: none;
+  width: 4rem;
+  margin: 0 auto;
+  height: 4px;
+  background: #910A67;
+}
+
 .skills-language img{
-  width: 120px;
+  width: 100px;
   padding-left: 30px;
   cursor:pointer;
+}
+
+@media (max-width: 1024px){
+  .skills-language img{
+    width: 80px;
+  }
 }
 
 @media (max-width: 768px){
   .skills-language img{
     width: 70px;
   }
+   .skill-card {
+        width: 80%;
+    }
 }

@@ -30,11 +30,11 @@ export const Skills = () =>{
         superLargeDesktop: {
           // the naming can be any, depends on you.
           breakpoint: { max: 4000, min: 3000 },
-          items: 5
+          items: 3
         },
         desktop: {
           breakpoint: { max: 3000, min: 1024 },
-          items: 3
+          items: 2
         },
         tablet: {
           breakpoint: { max: 1024, min: 464 },
@@ -51,22 +51,23 @@ export const Skills = () =>{
             <Container>
                 <Row>
                     <Col>
-                        <h2 className='fs-2 mb-4'>My Skills</h2>
+                        <h2 className='fs-2'>My Skills</h2>
+                        <hr/>
                         <p className='h4 my-4 py-4'>Through self-learning and online courses, I've 
                         mastered a range of skills. Here are some of the 
                         skills I excel in:</p>
                         <Carousel
-                            swipeable={false}
+                            swipeable={true}
                             draggable={false}
                             showDots={true}
                             responsive={responsive}
                             ssr={true} // means to render carousel on server-side.
                             infinite={true}
                             keyBoardControl={true}
-                            customTransition="all .5"
+                            customTransition="all .1"
                             transitionDuration={500}
                             autoPlay={true}
-                            autoPlaySpeed={1000}
+                            autoPlaySpeed={5000}
                             containerClass="carousel-container"
                             removeArrowOnDeviceType={["desktop", "tablet", "mobile"]}
                             dotListClass="custom-dot-list-style"
