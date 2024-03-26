@@ -9,6 +9,7 @@ export const SkillCard = ({ image, title, text }) => {
                 width: '100%',
                 maxWidth: '30rem',
                 height: '40rem',
+                maxHeight: '84%',// working on this
                 backgroundColor: '#fff',
                 textAlign: 'center',
                 display: 'flex',
